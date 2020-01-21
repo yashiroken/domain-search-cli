@@ -25,6 +25,7 @@ var transforms = []string{
 }
 
 func main() {
+
 	rand.Seed(time.Now().UTC().UnixNano())
 	s := bufio.NewScanner(os.Stdin)
 	for s.Scan() {
