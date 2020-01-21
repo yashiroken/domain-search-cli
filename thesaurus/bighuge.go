@@ -10,7 +10,7 @@ type BigHuge struct {
 	APIKey string
 }
 
-type sunonyms struct {
+type synonyms struct {
 	Noun *words `json:"noun"`
 	Verb *words `json:"verb"`
 }
